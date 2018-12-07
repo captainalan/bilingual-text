@@ -3,7 +3,8 @@
 This website presents bilingual texts with hideable commentary in a
 minimalistic, mobile and desktop friendly manner.
 
-Data is read in via JSON. See a sample on Github Pages.
+Data is read in via JSON. See a sample on [Github
+Pages](https://captainalan.github.io/bilingual-text/).
 
 ## Other Notes
 
