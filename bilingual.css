@@ -1,0 +1,64 @@
+body {
+    background: #ffffff;
+}
+.bilingual-box {
+    padding: 10px;
+    font-family: 'Noto Serif JP', sans-serif;
+}
+
+.bilingual-box .language-from {
+    background: #e4e4e4;
+    padding: 8px;
+}
+
+.bilingual-box .language-to {
+    background: #e4e4e4;
+    padding: 8px;
+}
+
+.bilingual-box .commentary {
+    background: #f7f3d2;
+    margin: 10px;
+    padding: 10px;
+}
+
+.bilingual-box .commentary p {
+    font-size: 11pt;
+    text-indent: 1em;
+}
+
+h1, h2, h3, h4 {
+    font: "Noto Sans JP";
+    font-weight: bolder;
+    padding: 0px 20px;
+    /* Do some stuff to get the right weight for this */
+}
+
+.hidden {
+    display: none;
+}
+
+.blank-box {
+    height: 150px;
+}
+
+.topnav {
+    position: fixed;
+    background-color: #ffffff;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.topnav .menu-bar {
+    background-color: rgb(172, 172, 172);
+}
+
+.topnav button {
+    border: none;
+    text-align: center;
+    margin: 10px;
+    padding: 14px 16px;
+    font-size: 14px;
+}
