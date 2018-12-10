@@ -27,3 +27,7 @@
 .hidden {
     display: none;
 }
+
+.blank-box {
+    height: 70px;
+}
