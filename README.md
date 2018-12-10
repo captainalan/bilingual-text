@@ -8,7 +8,8 @@ Pages](https://captainalan.github.io/bilingual-text/).
 
 ## Other Notes
 
-This project is made with vanilla JavaScript (ES6) and HTML. 
+This project is made with vanilla JavaScript (ES6) and HTML with some help from
+[Bootstrap 4](https://getbootstrap.com/docs/4.1/getting-started/introduction/). 
 
 ### Useful tools
 

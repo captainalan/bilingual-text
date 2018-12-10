@@ -12,11 +12,9 @@ async function getText(){
     return res.json();
   })
   .then(myJSON => {
-    console.log(JSON.stringify(myJSON));
 
     const elem = document.getElementById('muh-content')
     let stuffToRender = myJSON.paragraphs.reduce((accumulator, currentElem) => {
-      console.log(Object.keys(currentElem));
       return accumulator + '<div class="bilingual-box">'
         + '<div class="language-from" lang=\''
         + LANGUAGE_FROM
@@ -41,7 +39,6 @@ async function getText(){
     elem.innerHTML = stuffToRender;
   })
   .catch(error => {
-    console.log(error);
     return {};
   });
 }
